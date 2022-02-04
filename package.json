@@ -1,7 +1,7 @@
 {
   "name": "hello-next",
   "browserslist": [
-    "extends browserslist-config-google"
+    "Chrome 94"
   ],
   "version": "0.1.0",
   "private": true,
@@ -11,14 +11,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^12.0.9-canary.0",
+    "next": "11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
-    "browserslist-config-google": "^3.0.1",
     "typescript": "^4.4.4"
   }
 }
